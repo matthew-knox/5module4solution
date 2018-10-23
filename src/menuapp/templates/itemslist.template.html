@@ -1,5 +1,5 @@
 <ul>
-  <li ng-repeat="menuitem in $strl.items">
+  <li ng-repeat="menuitem in $ctrl.items">
     <h4> ({{menuitem.short_name}}) {{menuitem.name}} <span style="color: red">${{menuitem.price_large}}</span></h4>
     <p>
       {{menuitem.description}}
